@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "da2c1d01c2dbfff338a96801dc09f591",
+        "name": "20180101_084218.jpg",
+        "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084218.jpg",
+        "size": {
+            "width": 5376,
+            "height": 3024
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "mE4pin-Xi",
+            "type": "RECTANGLE",
+            "tags": [
+                "beaver"
+            ],
+            "boundingBox": {
+                "height": 1757.854995029821,
+                "width": 4529.336312849162,
+                "left": 1.924022346368715,
+                "top": 1.6204025844930419
+            },
+            "points": [
+                {
+                    "x": 1.924022346368715,
+                    "y": 1.6204025844930419
+                },
+                {
+                    "x": 4531.26033519553,
+                    "y": 1.6204025844930419
+                },
+                {
+                    "x": 4531.26033519553,
+                    "y": 1759.4753976143143
+                },
+                {
+                    "x": 1.924022346368715,
+                    "y": 1759.4753976143143
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "f7bead1f0cd94a1b85af12cfb4e2da94",
+        "name": "20180104_054735.jpg",
+        "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180104_054735.jpg",
+        "size": {
+            "width": 2048,
+            "height": 1152
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "AeQL3sLAf",
+            "type": "RECTANGLE",
+            "tags": [
+                "beaver"
+            ],
+            "boundingBox": {
+                "height": 844.5328031809145,
+                "width": 580.2100558659217,
+                "left": 538.7530726256982,
+                "top": 35.02485089463221
+            },
+            "points": [
+                {
+                    "x": 538.7530726256982,
+                    "y": 35.02485089463221
+                },
+                {
+                    "x": 1118.96312849162,
+                    "y": 35.02485089463221
+                },
+                {
+                    "x": 1118.96312849162,
+                    "y": 879.5576540755467
+                },
+                {
+                    "x": 538.7530726256982,
+                    "y": 879.5576540755467
+                }
+            ]
+        }
+    ],
+    "version": "2.1.0"
+}

@@ -1,0 +1,1249 @@
+{
+    "name": "beaver_data",
+    "securityToken": "beaver_data Token",
+    "sourceConnection": {
+        "name": "raw_data",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMmNmY2Y3ODc2MGU3Y2VkMDU1YTBiMTlhYmVjNTBhYzgzNzg3NGI0ZThmODI2M2VlMjYzNmFjMzc1YjczZjYxZDllMDQ2ZmI1NjQ2NDI1ZTFlZGRhZWZiNWM2NjdmMDdhODcwMjUxZmY0NWNmNGRiMzdhNWQzODBmNzAxMzU4YTRmY2U5ZDk3ZDQ1NDIyYTMwNDIxNGFhNjdjZWY2N2VmZDNhOTAzMGMxMDFhMjFlYjQzZDUyZWNmM2M3MzhmNTc3IiwiaXYiOiIzMDYyMjEwODk5NjA3ZDRkNTNiNmMxMGY1MTZhNTRjNGNjMzdmMmM5NGNiYmI0NTkifQ=="
+        },
+        "id": "xXohB-gxd"
+    },
+    "targetConnection": {
+        "name": "annotated_data",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZGY5YTdjZjFjZmNhZDE3NjhkNGJkM2EwNmM1YjY3ZWJlMGUxZmI2YjdhOGU5YzRlOGVkZWVkN2YwN2YxNjYyZGFiYjEzYjA3NGNlZjNmYzU5NjkzNGJlZTQ2MGEwN2RmZDFjZWM1NGJhZWJlMTEyMDJjN2IxZGI3NTgyOGRlNzQ1MjE4ZjUxMDc3ZWEwMTRhMjhmOGY3MzQ4MDI1ZTAxMDljNzc4OWZiN2JmNGFhNTRiNDdjZjdlMGExYjg4NmM2IiwiaXYiOiI2YjA0MmEwNmJjMWM2N2Y1NjJmNzQyYzUzNzBlZWFiMjQ2ZDViNjY5NDMwNzM1NjcifQ=="
+        },
+        "id": "25ObLTU8j"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [
+        {
+            "name": "beaver",
+            "color": "#800080"
+        },
+        {
+            "name": "frog",
+            "color": "#386300"
+        }
+    ],
+    "id": "7cVOmR3x4",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "tensorFlowRecords",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDA4YWVkYWRhZmM2YWQ4MDUzODIwN2UxMzc3MTU0OWY5MDEyZjhmZWE4ODRmNmI5MTI3Yzc1NzdlMjliMmMyYiIsIml2IjoiZDMyNmFiNmUyZmQxMDMzNTNlODZmNjJmYzkyZjNiZmI2ZmFhZWZhMTlmNzE2NGUxIn0="
+        }
+    },
+    "version": "2.1.0",
+    "lastVisitedAssetId": "f7bead1f0cd94a1b85af12cfb4e2da94",
+    "assets": {
+        "81fa021326bbd816c047769a61a62efc": {
+            "format": "jpg",
+            "id": "81fa021326bbd816c047769a61a62efc",
+            "name": "20180101_075933.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075933.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d4d88a06cdb6a141572aab330d8693c": {
+            "format": "jpg",
+            "id": "0d4d88a06cdb6a141572aab330d8693c",
+            "name": "20180101_075934.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075934.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c8ca671f3c5fabc19400372f3e348078": {
+            "format": "jpg",
+            "id": "c8ca671f3c5fabc19400372f3e348078",
+            "name": "20180101_075935.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075935.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "074e5f71a6864301768d58d0cdba4908": {
+            "format": "jpg",
+            "id": "074e5f71a6864301768d58d0cdba4908",
+            "name": "20180101_075936.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075936.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fb4238ce99d64784b094ea57c358707e": {
+            "format": "jpg",
+            "id": "fb4238ce99d64784b094ea57c358707e",
+            "name": "20180101_075937.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075937.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef7aae0da07622183ebeca197524419f": {
+            "format": "jpg",
+            "id": "ef7aae0da07622183ebeca197524419f",
+            "name": "20180101_075938.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075938.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ecf349302070f9f4fbed3e7bd95864e1": {
+            "format": "jpg",
+            "id": "ecf349302070f9f4fbed3e7bd95864e1",
+            "name": "20180101_075940.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075940.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bfd4184e9422b27a344677ea5a43db62": {
+            "format": "jpg",
+            "id": "bfd4184e9422b27a344677ea5a43db62",
+            "name": "20180101_075943.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075943.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "952bdf040de0946f80fb99ee894382dc": {
+            "format": "jpg",
+            "id": "952bdf040de0946f80fb99ee894382dc",
+            "name": "20180101_075944.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075944.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80b4e82a4e56a79c7ce74daea99e9b19": {
+            "format": "jpg",
+            "id": "80b4e82a4e56a79c7ce74daea99e9b19",
+            "name": "20180101_075945.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075945.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77df50854562f98b40c0da33959ee68a": {
+            "format": "jpg",
+            "id": "77df50854562f98b40c0da33959ee68a",
+            "name": "20180101_075946.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075946.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7f816c24dfc7a2df0d0f7116dd470400": {
+            "format": "jpg",
+            "id": "7f816c24dfc7a2df0d0f7116dd470400",
+            "name": "20180101_075947.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075947.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "26f5a72fa297c7db4aeb9583d9ea6ea3": {
+            "format": "jpg",
+            "id": "26f5a72fa297c7db4aeb9583d9ea6ea3",
+            "name": "20180101_075952.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075952.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ac3daa1bae29ca8d9d0d10b18b6f10e": {
+            "format": "jpg",
+            "id": "2ac3daa1bae29ca8d9d0d10b18b6f10e",
+            "name": "20180101_075954.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075954.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d8c9445dce1b634ce2cecdc38f401393": {
+            "format": "jpg",
+            "id": "d8c9445dce1b634ce2cecdc38f401393",
+            "name": "20180101_075955.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_075955.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 1,
+            "type": 1
+        },
+        "fdbb44e4da7ecfc5fd748214855fd799": {
+            "format": "jpg",
+            "id": "fdbb44e4da7ecfc5fd748214855fd799",
+            "name": "20180101_081046.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081046.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "809c636103abbc6553fe1b1d158bf23e": {
+            "format": "jpg",
+            "id": "809c636103abbc6553fe1b1d158bf23e",
+            "name": "20180101_081047.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081047.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a2c80212171c3ad73d68ea067f280ab6": {
+            "format": "jpg",
+            "id": "a2c80212171c3ad73d68ea067f280ab6",
+            "name": "20180101_081049.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081049.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3f79fed567bcc38db8786361322bcde0": {
+            "format": "jpg",
+            "id": "3f79fed567bcc38db8786361322bcde0",
+            "name": "20180101_081052.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081052.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3c487f3d2744fbf7766e802ebc11509e": {
+            "format": "jpg",
+            "id": "3c487f3d2744fbf7766e802ebc11509e",
+            "name": "20180101_081053.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081053.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b128222b5077467ff37691de8544c89": {
+            "format": "jpg",
+            "id": "7b128222b5077467ff37691de8544c89",
+            "name": "20180101_081054.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081054.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "33c634204369d33b7194206526f28b71": {
+            "format": "jpg",
+            "id": "33c634204369d33b7194206526f28b71",
+            "name": "20180101_081055.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081055.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0c5a2df015add7f3bd86c4b5dacde2da": {
+            "format": "jpg",
+            "id": "0c5a2df015add7f3bd86c4b5dacde2da",
+            "name": "20180101_081057.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081057.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c32d1a6bb958a7564eb103abb4eb06ee": {
+            "format": "jpg",
+            "id": "c32d1a6bb958a7564eb103abb4eb06ee",
+            "name": "20180101_081058.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081058.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7cc3fa6c2e3ce073bfa59cf92c6f9f38": {
+            "format": "jpg",
+            "id": "7cc3fa6c2e3ce073bfa59cf92c6f9f38",
+            "name": "20180101_081100.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_081100.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6730e33d90128b15d61bc83d95a1e1f7": {
+            "format": "jpg",
+            "id": "6730e33d90128b15d61bc83d95a1e1f7",
+            "name": "20180101_083340.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083340.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63d2e04f3001c8709e7e1e0e7d79b1e4": {
+            "format": "jpg",
+            "id": "63d2e04f3001c8709e7e1e0e7d79b1e4",
+            "name": "20180101_083342.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083342.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7db3bb552fccb386b8ff13cd0787255d": {
+            "format": "jpg",
+            "id": "7db3bb552fccb386b8ff13cd0787255d",
+            "name": "20180101_083343.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083343.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "644d39475195b8f21bc0e41ed3d4b9de": {
+            "format": "jpg",
+            "id": "644d39475195b8f21bc0e41ed3d4b9de",
+            "name": "20180101_083344.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083344.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "42e80b5e4b47ada1d0680c970e34db8f": {
+            "format": "jpg",
+            "id": "42e80b5e4b47ada1d0680c970e34db8f",
+            "name": "20180101_083345.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083345.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "37be8286bbe41115ef38b37d70f49c38": {
+            "format": "jpg",
+            "id": "37be8286bbe41115ef38b37d70f49c38",
+            "name": "20180101_083346.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083346.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7488db8c16023f3b9dc53d82469f73cc": {
+            "format": "jpg",
+            "id": "7488db8c16023f3b9dc53d82469f73cc",
+            "name": "20180101_083347.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083347.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b6d148c98bca1e545544ec44d530f19": {
+            "format": "jpg",
+            "id": "1b6d148c98bca1e545544ec44d530f19",
+            "name": "20180101_083348.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083348.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bbb7f90399d8c345cc4858ed2de6d205": {
+            "format": "jpg",
+            "id": "bbb7f90399d8c345cc4858ed2de6d205",
+            "name": "20180101_083349.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083349.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1b7da7fca17cb698ac6d31ff2538cfea": {
+            "format": "jpg",
+            "id": "1b7da7fca17cb698ac6d31ff2538cfea",
+            "name": "20180101_083351.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083351.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7b0d036975d8705569f07aaf22e9c61a": {
+            "format": "jpg",
+            "id": "7b0d036975d8705569f07aaf22e9c61a",
+            "name": "20180101_083352.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083352.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5f747f207818b257a1e6a416b4cf01d0": {
+            "format": "jpg",
+            "id": "5f747f207818b257a1e6a416b4cf01d0",
+            "name": "20180101_083956.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083956.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "658e7f62f444fdcc1d4ce561b78d2212": {
+            "format": "jpg",
+            "id": "658e7f62f444fdcc1d4ce561b78d2212",
+            "name": "20180101_083957.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083957.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "18426e17b9855c1e7972d2e4f20518ee": {
+            "format": "jpg",
+            "id": "18426e17b9855c1e7972d2e4f20518ee",
+            "name": "20180101_083959.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_083959.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "92c6b3d5cf262940daab4ee90b7ca2a2": {
+            "format": "jpg",
+            "id": "92c6b3d5cf262940daab4ee90b7ca2a2",
+            "name": "20180101_084000.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084000.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d572056e230876482a31acaa651e4658": {
+            "format": "jpg",
+            "id": "d572056e230876482a31acaa651e4658",
+            "name": "20180101_084002.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084002.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f0589702b73311a336777d1d04a000ab": {
+            "format": "jpg",
+            "id": "f0589702b73311a336777d1d04a000ab",
+            "name": "20180101_084004.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084004.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a131d53a5cc1e5bf02fdd8fa70099014": {
+            "format": "jpg",
+            "id": "a131d53a5cc1e5bf02fdd8fa70099014",
+            "name": "20180101_084005.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084005.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6f19dc755c30b27adcc7f3bf2099ccde": {
+            "format": "jpg",
+            "id": "6f19dc755c30b27adcc7f3bf2099ccde",
+            "name": "20180101_084007.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084007.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6287cebda479dca285223b45d1115373": {
+            "format": "jpg",
+            "id": "6287cebda479dca285223b45d1115373",
+            "name": "20180101_084010.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084010.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "03b1dbd820dd8e8d9b939c40527e15f1": {
+            "format": "jpg",
+            "id": "03b1dbd820dd8e8d9b939c40527e15f1",
+            "name": "20180101_084011.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084011.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6b949802bd2e71289ccb9dbfb00e6800": {
+            "format": "jpg",
+            "id": "6b949802bd2e71289ccb9dbfb00e6800",
+            "name": "20180101_084012.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084012.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "2ad25c192b94fd990af667f30230af34": {
+            "format": "jpg",
+            "id": "2ad25c192b94fd990af667f30230af34",
+            "name": "20180101_084013.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084013.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "74df2e61a07a53e3ca1df9a0833fb747": {
+            "format": "jpg",
+            "id": "74df2e61a07a53e3ca1df9a0833fb747",
+            "name": "20180101_084015.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084015.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6bbeac1c23b6c5bfd2d41663e30e579b": {
+            "format": "jpg",
+            "id": "6bbeac1c23b6c5bfd2d41663e30e579b",
+            "name": "20180101_084020.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084020.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ac0f634b2ce9f8a2e8f919486302e8f2": {
+            "format": "jpg",
+            "id": "ac0f634b2ce9f8a2e8f919486302e8f2",
+            "name": "20180101_084021.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084021.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "9c88347c4efa8ece7d6f75ec2da6ce69": {
+            "format": "jpg",
+            "id": "9c88347c4efa8ece7d6f75ec2da6ce69",
+            "name": "20180101_084023.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084023.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5e5c3aebfd0327ec55d4e2c0c1253dba": {
+            "format": "jpg",
+            "id": "5e5c3aebfd0327ec55d4e2c0c1253dba",
+            "name": "20180101_084024.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084024.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "63533d5b1d0fa643df09b954dfb3ff32": {
+            "format": "jpg",
+            "id": "63533d5b1d0fa643df09b954dfb3ff32",
+            "name": "20180101_084035.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084035.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "bf59861a39c92a42032ec0a191f311d5": {
+            "format": "jpg",
+            "id": "bf59861a39c92a42032ec0a191f311d5",
+            "name": "20180101_084036.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084036.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "a1b22584a4298be8157d3bf90244e864": {
+            "format": "jpg",
+            "id": "a1b22584a4298be8157d3bf90244e864",
+            "name": "20180101_084037.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084037.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "41aa505fa2348feb2864e67d9c98b98e": {
+            "format": "jpg",
+            "id": "41aa505fa2348feb2864e67d9c98b98e",
+            "name": "20180101_084038.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084038.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "40a2863416867684b05fdb1c327360c2": {
+            "format": "jpg",
+            "id": "40a2863416867684b05fdb1c327360c2",
+            "name": "20180101_084039.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084039.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8d4b13a49d5f36cfa6a7475dfbae2ef9": {
+            "format": "jpg",
+            "id": "8d4b13a49d5f36cfa6a7475dfbae2ef9",
+            "name": "20180101_084050.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084050.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ba55db544cefc6701b22fdc7fcb30561": {
+            "format": "jpg",
+            "id": "ba55db544cefc6701b22fdc7fcb30561",
+            "name": "20180101_084052.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084052.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "3a14121492b661ef71c92f51f7cd72b0": {
+            "format": "jpg",
+            "id": "3a14121492b661ef71c92f51f7cd72b0",
+            "name": "20180101_084059.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084059.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0a01210567237e6d39457d5de5c2d456": {
+            "format": "jpg",
+            "id": "0a01210567237e6d39457d5de5c2d456",
+            "name": "20180101_084100.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084100.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "177a7fdebacdc22d1ec50580abfd890d": {
+            "format": "jpg",
+            "id": "177a7fdebacdc22d1ec50580abfd890d",
+            "name": "20180101_084103.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084103.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "57dc0cd638f49c464a3fb352eb4475fc": {
+            "format": "jpg",
+            "id": "57dc0cd638f49c464a3fb352eb4475fc",
+            "name": "20180101_084104.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084104.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cff3965233b2f9b018c5eef777b274ed": {
+            "format": "jpg",
+            "id": "cff3965233b2f9b018c5eef777b274ed",
+            "name": "20180101_084105.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084105.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "1df61ed6da6b90723d724bda67f0d4a9": {
+            "format": "jpg",
+            "id": "1df61ed6da6b90723d724bda67f0d4a9",
+            "name": "20180101_084106.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084106.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d5989dcbd74eeb6d311b79f5e6955848": {
+            "format": "jpg",
+            "id": "d5989dcbd74eeb6d311b79f5e6955848",
+            "name": "20180101_084109.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084109.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ffb32d29855757a02fc718ede423d95b": {
+            "format": "jpg",
+            "id": "ffb32d29855757a02fc718ede423d95b",
+            "name": "20180101_084112.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084112.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "80d1e4b2cfb7967a0ed1f322c85b6131": {
+            "format": "jpg",
+            "id": "80d1e4b2cfb7967a0ed1f322c85b6131",
+            "name": "20180101_084113.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084113.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "77d0c572436763ace5bd2399be93228e": {
+            "format": "jpg",
+            "id": "77d0c572436763ace5bd2399be93228e",
+            "name": "20180101_084115.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084115.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b035c47208db4fab6e8f6e14b9423a15": {
+            "format": "jpg",
+            "id": "b035c47208db4fab6e8f6e14b9423a15",
+            "name": "20180101_084116.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084116.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "34f1f72d14997c333a76dfc1f7581b90": {
+            "format": "jpg",
+            "id": "34f1f72d14997c333a76dfc1f7581b90",
+            "name": "20180101_084117.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084117.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "fa61426eb42021a0f110757cae521878": {
+            "format": "jpg",
+            "id": "fa61426eb42021a0f110757cae521878",
+            "name": "20180101_084118.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084118.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "cfc6bdfcaa4e136322c9f3eae121201b": {
+            "format": "jpg",
+            "id": "cfc6bdfcaa4e136322c9f3eae121201b",
+            "name": "20180101_084202.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084202.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "902c1b158de55da56ef15b7b766bed16": {
+            "format": "jpg",
+            "id": "902c1b158de55da56ef15b7b766bed16",
+            "name": "20180101_084217.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084217.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "da2c1d01c2dbfff338a96801dc09f591": {
+            "format": "jpg",
+            "id": "da2c1d01c2dbfff338a96801dc09f591",
+            "name": "20180101_084218.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084218.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4d360cec2db3f15f237138409c8d5f43": {
+            "format": "jpg",
+            "id": "4d360cec2db3f15f237138409c8d5f43",
+            "name": "20180101_084220.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084220.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "7bb7588b4b0b85bb79fbdb21bfdbcbfc": {
+            "format": "jpg",
+            "id": "7bb7588b4b0b85bb79fbdb21bfdbcbfc",
+            "name": "20180101_084223.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084223.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 1,
+            "type": 1
+        },
+        "79b0df9c4be0e002d7c6e481dd91ff75": {
+            "format": "jpg",
+            "id": "79b0df9c4be0e002d7c6e481dd91ff75",
+            "name": "20180101_084224.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084224.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 1,
+            "type": 1
+        },
+        "12f0805ad2b0772e4209356bfc86c225": {
+            "format": "jpg",
+            "id": "12f0805ad2b0772e4209356bfc86c225",
+            "name": "20180101_084405.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084405.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f86416c7e0cdb03aba105cb99d28702a": {
+            "format": "jpg",
+            "id": "f86416c7e0cdb03aba105cb99d28702a",
+            "name": "20180101_084406.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084406.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "10a09f031f5b57309c6bb2989871d67d": {
+            "format": "jpg",
+            "id": "10a09f031f5b57309c6bb2989871d67d",
+            "name": "20180101_084408.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084408.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "0d3c4c9f07c481aff1bd46066871315d": {
+            "format": "jpg",
+            "id": "0d3c4c9f07c481aff1bd46066871315d",
+            "name": "20180101_084410.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084410.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "d9136043afc85837feb0c4665640f29a": {
+            "format": "jpg",
+            "id": "d9136043afc85837feb0c4665640f29a",
+            "name": "20180101_084411.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084411.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "4b35f5fd67bce525665a9113422f7744": {
+            "format": "jpg",
+            "id": "4b35f5fd67bce525665a9113422f7744",
+            "name": "20180101_084412.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084412.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "55dfeaf74822954448d2f3e65a326aa8": {
+            "format": "jpg",
+            "id": "55dfeaf74822954448d2f3e65a326aa8",
+            "name": "20180101_084413.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084413.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 1,
+            "type": 1
+        },
+        "311cc19027411bae6f9ae84c79c2ced4": {
+            "format": "jpg",
+            "id": "311cc19027411bae6f9ae84c79c2ced4",
+            "name": "20180101_084621.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084621.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "c94cf166f5a3d6bddf0110719fd7b5e7": {
+            "format": "jpg",
+            "id": "c94cf166f5a3d6bddf0110719fd7b5e7",
+            "name": "20180101_084623.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084623.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b3c150a1deb2c4645e38cc730482564e": {
+            "format": "jpg",
+            "id": "b3c150a1deb2c4645e38cc730482564e",
+            "name": "20180101_084625.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084625.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "dd6d1ea0ca9ac943b8660b8d13f4dfa1": {
+            "format": "jpg",
+            "id": "dd6d1ea0ca9ac943b8660b8d13f4dfa1",
+            "name": "20180101_084626.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084626.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "b9b4b523b5724255db53457984b487f0": {
+            "format": "jpg",
+            "id": "b9b4b523b5724255db53457984b487f0",
+            "name": "20180101_084627.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084627.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "8acfd1d63afef3bd315a5ea681be7991": {
+            "format": "jpg",
+            "id": "8acfd1d63afef3bd315a5ea681be7991",
+            "name": "20180101_084628.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180101_084628.jpg",
+            "size": {
+                "width": 5376,
+                "height": 3024
+            },
+            "state": 2,
+            "type": 1
+        },
+        "ef9283ed64066d5157ab7ba44380d945": {
+            "format": "jpg",
+            "id": "ef9283ed64066d5157ab7ba44380d945",
+            "name": "20180102_033803.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180102_033803.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "e776f2b9897a06831a706b9844990198": {
+            "format": "jpg",
+            "id": "e776f2b9897a06831a706b9844990198",
+            "name": "20180102_033804.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180102_033804.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "65488ace7fc57e0a36757a51c3d22c93": {
+            "format": "jpg",
+            "id": "65488ace7fc57e0a36757a51c3d22c93",
+            "name": "20180102_033805.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180102_033805.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "5ea5f2651185ff48007a95ea6308545c": {
+            "format": "jpg",
+            "id": "5ea5f2651185ff48007a95ea6308545c",
+            "name": "20180104_054730.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180104_054730.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "98390df4f102ab47aef7b5f5623852d8": {
+            "format": "jpg",
+            "id": "98390df4f102ab47aef7b5f5623852d8",
+            "name": "20180104_054731.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180104_054731.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "99ecbad364311463c6df06d72b623d61": {
+            "format": "jpg",
+            "id": "99ecbad364311463c6df06d72b623d61",
+            "name": "20180104_054732.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180104_054732.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "00d9efe4757cab83b8c15312f88157f2": {
+            "format": "jpg",
+            "id": "00d9efe4757cab83b8c15312f88157f2",
+            "name": "20180104_054734.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180104_054734.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        },
+        "f7bead1f0cd94a1b85af12cfb4e2da94": {
+            "format": "jpg",
+            "id": "f7bead1f0cd94a1b85af12cfb4e2da94",
+            "name": "20180104_054735.jpg",
+            "path": "file:/Users/nkacoroski/Flatiron/module_4/beaver_detector/images_small/20180104_054735.jpg",
+            "size": {
+                "width": 2048,
+                "height": 1152
+            },
+            "state": 2,
+            "type": 1
+        }
+    }
+}

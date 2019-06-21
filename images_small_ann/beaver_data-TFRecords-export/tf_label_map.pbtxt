@@ -1,8 +1,0 @@
-item {
- id: 1
- name: 'beaver'
-}
-item {
- id: 2
- name: 'frog'
-}

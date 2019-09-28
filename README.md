@@ -1,23 +1,28 @@
-# Beaver Image Classifier 
+# Wildlife Camera Data Management System and Species Photo Identification Algorithm
 
 ## Business Understanding
-Motion activated cameras are great for monitoring wildlife, however, they produce large amounts of data that takes hours to process. As part of my volunteer work with the Eastside Audubon Society, I have a growing dataset of wildlife images for a beaver monitoring project. The goal of this project is to build an image classifier to help sort the data. 
+The Eastside Audubon Society is exploring the use of wildlife cameras to better understand local beaver populations, and are also interested in documenting other wildlife observed. Motion activated cameras are great for monitoring wildlife because they are unobtrusive to animals and expand the window of observation time. They produce large amounts of data, however, which is a time-consuming task to process. The goal of this project is twofold, (1) construct a data management system for long term storage and automated manipulation of image data, and (2) develop an algorithm to detect animals in photos and classify by species.
 
 ## Data Understanding
-From a shared DropBox account I have access to over 2,000 photos from two motion activated cameras. Building a classifier is feasible with transfer learning, as 2,000 images is a small dataset in terms of image classification. I downloaded the data from DropBox and currently store it on my laptop. The goal is to store it in an S3 bucket using Amazon Web Services or other cloud platform. 
-
-Photos were taken between April and June 2019 with Browning and Reconyx cameras. They are mostly grayscale because beavers are more active at night. A majority of the animals in the photos are beavers, however there are also several bird species, frogs, raccoons, rats, rabbits, and squirrels. Photos are either approximately 5376 by 2034 pixels (Browning) by or 2048 by 1152 pixels (Reconyx). Many animals are small, blurry, occluded, or truncated. 
+In April 2019, two wildlife cameras (Browning -link- and Reconyx -link-) were installed around a beaver lodge on Lake Sammamish in Redmond, WA. To maximize capture of beavers, cameras were focused on areas of recent beaver activity (scent mounds, mud walls, dams, lodges) near or at the shoreline. Camera settings were experimented with throughout the first few months. To maximize capture of wildlife images, cameras were set at high sensitivity, with 10 photos per trigger and the smallest setting between photo capture (Browning = 1 sec, Reconyx = no setting -check with camera-). There is the possibilty of additional data sources as the Eastside Audubon Society would like to set up wildlife cameras around other beaver lodges on Lake Sammamish.
 
 ## Data Preparation
-Data was downloaded as zipfile from Dropbox. I used Photos on Mac to correct dates and times, and ExifRenamer to rename all photos by the following method:
+### Data Collection and Storage
+Photos are collected weekly (if possible) and uploaded as zip files. During data collection, beaver activity at camera locations is evaluated and cameras are moved if necessary to more recent beaver activity around the lodge. Initially, image data was uploaded to Dropbox, in September 2019, image data was moved to Azure blob storage. A select group of volunteers have access to the account and upload the zip files of raw images each week as new blobs to "raw_image_data." Labels for zip files are as follows:
+* date (YYYYMMDD)
 * name of site (s1)
 * name of camera (c1 = Reconyx, c2 = Browning)
-* date (year, month, day, hour, minute, second)
 
+### Data Cleaning
+Currently image data is cleaned manually and then stored as blobs of individual image blobs under "cleaned_image_data." The following tasks are done to clean images.
+* correct datetime (no longer necessary, but datetime was incorrect on ... from April 2019 to ...)
+* rename all images by site, camera, and datetime (wildlife cameras give duplicate names each week to photos)
+* crop images to eliminate automatic wildlife labels (this information is not useful and could be misleading to computer vision algorithms)
 
-I sorted the images into two folders:
-* beaver
-* not beaver
+### Data Annotations
+
+### Exploratory Data Analysis
+
 
 I used Tensorflow to construct a labeled and shuffled dataset. Data was resized to 224 x 224.  
 

@@ -1,9 +1,14 @@
-# Functions to preprocess image: update datetimes, crop off information bars, and rename.
+# Functions to preprocess image: 
+# correct datetimes
+# rename with unique names by camera, datetime, and sequence number or iteration
+# crop out information bars
 
 import datetime
 from exif import Image
 import os
+import os.path
 import re
+import exiftool
 
 def change_datetimes(image_path, time_delta):
     """Take in image file and time change as a time delta object.
@@ -26,45 +31,21 @@ def change_datetimes(image_path, time_delta):
     
 
 def rename_image(image_path):
-    """Take in image path and rename image by site,
-    camera, and datetime."""
+    """Take in image path and rename image by site, camera, and datetime."""
     # Get image datetime.
-    with open(image_path, 'rb') as image_file:
-        image = Image(image_file)
-    datetime = image.datetime
-    dt = re.sub(r"\s+", "", datetime)
-    dt = re.sub(r"\:+", "", dt)
-    camera = ""
-    if image_path.startswith('IMG'):
-        camera += 'c2'
+    with exiftool.ExifTool() as et:
+        metadata = et.get_metadata(image_path)
+    datetime_string = re.sub('[^0-9]+', '', metadata['File:FileCreateDate'][:-6])
+    if metadata["EXIF:Make"] == "RECONYX":
+        camera = "c1"
+        sequence_number_string = str(metadata['MakerNotes:EventNumber'])
+        name = "./data/s1c1_" + datetime_string + "_" + sequence_number_string + ".jpg"
+        os.rename(image_path, name)
     else:
-        camera += 'c1'
-    name = "./data/s1" + camera + "_" + dt + ".jpg"
-    os.rename(image_path, name)
+        i = 0
+        name = "./data/s1c2_" + datetime_string + "_" + str(i) + ".jpg"
+        while os.path.exists(name):
+            i += 1
+            name = "./data/s1c2_" + datetime_string + "_" + str(i) + ".jpg"
+        os.rename(image_path, name)
     print(f"{image_path[7::]} renamed!")
-
-
-# TO-DO: get pyexif dump working and extract temperature data,
-# consider tessaract python OCR instead?
-
-def change_exif_datetimes_pyexif(image_path, time_delta):
-    """Take in image file and time change as a time delta object.
-    Change exif datetime, datetime_digitized, and datetime_original
-    Save file with updated exif datetimes."""
-    # open image
-    img = Image.open(image_path)
-    # load exif data into dictionary
-    exif_dict = piexif.load(img.info['exif'])
-    # generate updated datetime
-    old_dt_str = exif_dict["0th"][306]
-    print(old_dt_str)
-    new_dt_str = change_datetime(old_dt_str, time_delta)
-    # replace exif datetimes with updated value
-    exif_dict["0th"][306] = new_dt_str.encode("utf-8")
-    print(exif_dict['0th'][306])
-    exif_dict["Exif"][36868] = new_dt_str.encode("utf-8")
-    exif_dict["Exif"][36867] = new_dt_str.encode("utf-8")
-    # Convert into bytes and put in image file
-    exif_bytes = piexif.dump(exif_dict)
-    piexif.insert(exif_bytes, image_path)
-    print(f"Updated exif datetimes!")

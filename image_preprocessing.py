@@ -35,10 +35,13 @@ def rename_image(image_path):
     # Get image datetime.
     with exiftool.ExifTool() as et:
         metadata = et.get_metadata(image_path)
-    datetime_string = re.sub('[^0-9]+', '', metadata['File:FileCreateDate'][:-6])
+    datetime_string = re.sub('[^0-9]+', '', metadata['EXIF:DateTimeOriginal'])
     if metadata["EXIF:Make"] == "RECONYX":
         camera = "c1"
-        sequence_number_string = str(metadata['MakerNotes:EventNumber'])
+        if metadata['MakerNotes:Sequence'][1] != " ":
+            sequence_number_string = str(metadata['MakerNotes:Sequence'][0:2])
+        else:
+            sequence_number_string = str(metadata['MakerNotes:Sequence'][0])
         name = "./data/s1c1_" + datetime_string + "_" + sequence_number_string + ".jpg"
         os.rename(image_path, name)
     else:
@@ -48,4 +51,4 @@ def rename_image(image_path):
             i += 1
             name = "./data/s1c2_" + datetime_string + "_" + str(i) + ".jpg"
         os.rename(image_path, name)
-    print(f"{image_path[7::]} renamed!")
+    print(f"{image_path[7::]} renamed to {name}!")

@@ -37,7 +37,6 @@ def rename_image(image_path):
         metadata = et.get_metadata(image_path)
     datetime_string = re.sub('[^0-9]+', '', metadata['EXIF:DateTimeOriginal'])
     if metadata["EXIF:Make"] == "RECONYX":
-        camera = "c1"
         if metadata['MakerNotes:Sequence'][1] != " ":
             sequence_number_string = str(metadata['MakerNotes:Sequence'][0:2])
         else:

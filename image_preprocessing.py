@@ -9,6 +9,11 @@ import os
 import os.path
 import re
 import exiftool
+from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw
+import sys
+
 
 def change_datetimes(image_path, time_delta):
     """Take in image file and time change as a time delta object.
@@ -51,3 +56,23 @@ def rename_image(image_path):
             name = "./data/s1c2_" + datetime_string + "_" + str(i) + ".jpg"
         os.rename(image_path, name)
     print(f"{image_path[7::]} renamed to {name}!")
+    
+    
+def crop_image(file):
+    """Take in image and crop to specifics to remove info bar and label."""
+    img = Image.open(file)
+    width, height = img.size
+    if height == 1152 or height == 1440:
+        cropped = img.crop((0, 30, width, height - 70))
+        cropped.save(file)
+        print(f"Cropped {img}.")
+    elif height == 3024:
+        cropped = img.crop((0, 0, width, height - 180))
+        cropped.save(file)
+        print(f"Cropped {img}.")
+    elif height == 3672:
+        cropped = img.crop((0, 0, width, height - 230))
+        cropped.save(file)
+        print(f"Cropped {img}.")
+    else:
+        print("No crop size matched.")
